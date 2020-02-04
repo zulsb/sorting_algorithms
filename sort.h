@@ -56,4 +56,11 @@ void print_array(const int *array, size_t size);
 /** Prints a list of integers */
 void print_list(const listint_t *list);
 
+/** Recursive function */
+void rec_quick_sort(int *array, int lo_w, int hi_gh, size_t size);
+
+int partition(int *array, int lo, int hi);
+
+void swap(int *a, int *b, int *array, int size);
+
 #endif

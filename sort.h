@@ -59,8 +59,13 @@ void print_list(const listint_t *list);
 /** Recursive function */
 void rec_quick_sort(int *array, int lo_w, int hi_gh, size_t size);
 
+/** Partition function */
 int partition(int *array, int lo, int hi);
 
+/** Swap function */
 void swap(int *a, int *b, int *array, int size);
+
+/** 4. Function sorts an array of integers using the Shell sort algorithm */
+void shell_sort(int *array, size_t size);
 
 #endif

@@ -68,4 +68,7 @@ void swap(int *a, int *b, int *array, int size);
 /** 4. Function sorts an array of integers using the Shell sort algorithm */
 void shell_sort(int *array, size_t size);
 
+/** 5.Function sorts a doubly linked list using the Cocktail sort algorithm */
+void cocktail_sort_list(listint_t **list);
+
 #endif
